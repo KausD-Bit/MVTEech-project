@@ -1,0 +1,22 @@
+# MVTec AD dataset: keep images and ground-truth masks out of Git.
+/datasets/
+/MVTecAD/
+/mvtec_anomaly_detection/
+mvtec_anomaly_detection.tar.xz
+mvtec_anomaly_detection.tar.xz.part
+
+# Local Python environments and generated caches.
+/.venv/
+/venv/
+/env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local secrets and operating-system files.
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
